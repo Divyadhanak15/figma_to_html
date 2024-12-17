@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="dashboard">
+
+    <!-- Sidebar -->
+   <aside class="sidebar">
+        <div class="logo">
+            <img src="images/Logo.png"/>
+        </div>
+        <hr>
+        <nav>
+          <ul>
+            <li>
+            <span class="material-icons icon">dashboard</span> Dashboard
+            <br/>
+            </li>
+
+            <li>
+            <span class="material-icons icon">request_page</span>Invoices
+            <br/>
+            </li>
+            
+            <li>
+            <span class="material-icons icon">description</span>Proposals
+            <br/>
+            </li>
+
+            <li>
+            <span class="material-icons icon">task_alt</span>Services
+            <br/>
+            </li>
+
+            <li>
+            <span class="material-icons icon">receipt_long</span>Transactions
+            <br/>
+            </li>
+
+            <li>
+            <span class="material-icons icon">folder</span>Projects
+            <br/>
+            </li>
+
+            <li>
+            <span class="material-icons icon">group</span>Customers
+            <br/>
+            </li>
+            
+          </ul>
+        </nav>
+        <div class="settings">
+            <li>
+        <span class="material-icons icon">settings</span>Settings
+          <br/>
+        </li>
+
+        <li>
+          <span class="material-icons icon">logout</span>Log out
+          <br/>
+        </li>
+        </div>
+      </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Header -->
+      <header>
+        <div class="greeting">
+            <p>Hi, Welcome back <span class="highlight">Robert!</span></p>
+        </div>
+        <div class="right-section">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button><i class="fa fa-search"></i></button>
+              </div>
+          <div class="notifications">
+            <i class="fa fa-bell"></i>
+          </div>
+          <div class="profile">
+            <img src="images/Ellipse 3.png" alt="Profile Picture">
+          </div>
+        </div>
+      </header>
+      
+      <div class="finance-tag">
+        <h3>Finance Overview</h3>
+      </div>
+      <section class="finance-overview">  
+        <div class="card sales">
+          <h2>$ 2,77,120</h2>
+          <p>Sales</p>
+          <img src="images/insights.png" class="finance-images"/>
+        </div>
+        <div class="card expenses">
+          <h2>$ 60,100</h2>
+          <p>Expense</p>
+          <img src="images/Expense.png" class="finance-images"/>
+        </div>
+        <div class="card profit">
+          <h2>$ 57,230</h2>
+          <p>Profit</p>
+          <img src="images/Profit.png" class="finance-images"/>
+        </div>
+        <div class="card income">
+          <h2>$ 1,60,124</h2>
+          <p>Income</p>
+          <img src="images/Income.png" class="finance-images"/>
+        </div>
+      </section>
+
+<div class="container">
+    <div class="table">
+        <br/>
+        <br/>
+        <div class="hea">
+        <h1><i>Current Projects</i></h1>
+        <button class="create-button">Create</button>
+        </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Customer</th>
+          <th>Sent Date</th>
+          <th>Amount</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td>Travel app design</td>
+          <td>Jacob Jones</td>
+          <td>28 Oct 2022</td>
+          <td>$240.90</td>
+          <td><span class="status sent">SENT</span></td>
+        </tr>
+        <tr>
+          <td>UX Research for Event management app</td>
+          <td>Wade Warren</td>
+          <td>18 Oct 2022</td>
+          <td>$120.00</td>
+          <td><span class="status draft">DRAFT</span></td>
+        </tr>
+        <tr>
+          <td>Redesign - Food delivery app</td>
+          <td>Annette Black</td>
+          <td>15 Oct 2022</td>
+          <td>$351.00</td>
+          <td><span class="status paid">PAID</span></td>
+        </tr>
+        <tr>
+          <td>Web App - Online Learning</td>
+          <td>Cameron Williamson</td>
+          <td>15 Oct 2022</td>
+          <td>$240.90</td>
+          <td><span class="status paid">PAID</span></td>
+        </tr>
+        <tr>
+          <td>Railway web case study</td>
+          <td>Robert Fox</td>
+          <td>13 Oct 2022</td>
+          <td>$153.00</td>
+          <td><span class="status sent">SENT</span></td>
+        </tr>
+        <tr>
+          <td>Responsive web design</td>
+          <td>Floyd Miles</td>
+          <td>06 Oct 2022</td>
+          <td>$140.90</td>
+          <td><span class="status rejected">REJECTED</span></td>
+        </tr>
+        <tr>
+          <td>Music app design</td>
+          <td>Theresa Webb</td>
+          <td>04 Oct 2022</td>
+          <td>$345.90</td>
+          <td><span class="status draft">DRAFT</span></td>
+        </tr>
+      </tbody>
+
+    </table>
+</div>
+  </div>
+
+      <!-- Events -->
+ 
+      <div class="events-box">
+        <h2><i>Events</i></h2>
+        <div class="event">
+          <img src="images/Ellipse 45.png" alt="Profile Picture">
+          <div class="event-details">
+            <h3>Wade Warren</h3>
+            <p><span class="highlight">Birthday</span>  <span>Today</span></p>
+          </div>
+          <button class="wish-button">Wish</button>
+        </div>
+        <div class="event">
+          <img src="images/Ellipse 46.png" alt="Profile Picture">
+          <div class="event-details">
+            <h3>Wade Warren</h3>
+            <p><span class="highlight">Joining Us</span> <span>Today</span></p>
+          </div>
+          <button class="congratulations-button">Congratulations</button>
+        </div>
+        <div class="event">
+          <img src="images/Ellipse 47.png" alt="Profile Picture">
+          <div class="event-details">
+            <h3>Wade Warren</h3>
+            <p>Work Anniversary <span>7 September, 2022</span></p>
+          </div>
+        </div>
+      </div>
+
+
+    </main>
+  </div>
+</body>
+</html>
